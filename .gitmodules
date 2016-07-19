@@ -1,0 +1,3 @@
+[submodule "EagleCADLib"]
+	path = EagleCADLib
+	url = https://github.com/Brandon2255p/EagleCADLib
