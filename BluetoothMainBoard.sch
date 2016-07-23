@@ -9725,12 +9725,18 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="111.76" x2="91.44" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="111.76" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="111.76" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="111.76" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
 <label x="119.38" y="111.76" size="1.778" layer="95"/>
 <pinref part="S1" gate="1" pin="S1"/>
+<wire x1="111.76" y1="111.76" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="114.3" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
 <junction x="96.52" y="111.76"/>
+<junction x="106.68" y="111.76"/>
+<pinref part="U1" gate="A" pin="V+"/>
+<wire x1="114.3" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="83.82" x2="111.76" y2="111.76" width="0.1524" layer="91"/>
+<junction x="111.76" y="111.76"/>
 </segment>
 <segment>
 <pinref part="S3" gate="G$1" pin="1"/>
@@ -10003,15 +10009,16 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="U1" gate="A" pin="V+"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="83.82" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="S2" gate="1" pin="S1"/>
 <wire x1="101.6" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
 <junction x="106.68" y="81.28"/>
-<junction x="106.68" y="83.82"/>
+<pinref part="U1" gate="A" pin="IN+"/>
+<wire x1="114.3" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="76.2" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
