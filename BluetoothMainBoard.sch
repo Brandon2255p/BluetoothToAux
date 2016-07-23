@@ -90,8 +90,13 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -101,6 +106,7 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
@@ -9634,8 +9640,8 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <pinref part="BACK" gate="G$1" pin="P$2"/>
 <wire x1="104.14" y1="17.78" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="12.7" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
-<label x="99.06" y="12.7" size="1.778" layer="95"/>
+<wire x1="104.14" y1="12.7" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
+<label x="93.98" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN_NEXT" class="0">
@@ -9648,7 +9654,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="NEXT" gate="G$1" pin="P$2"/>
 <wire x1="116.84" y1="17.78" x2="116.84" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="12.7" x2="111.76" y2="12.7" width="0.1524" layer="91"/>
-<label x="111.76" y="12.7" size="1.778" layer="95"/>
+<label x="109.22" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED_R" class="0">
@@ -9669,7 +9675,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="PWR" gate="G$1" pin="P$2"/>
 <wire x1="91.44" y1="17.78" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="12.7" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
-<label x="83.82" y="12.7" size="1.778" layer="95"/>
+<label x="83.82" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1V8" class="0">
@@ -9879,7 +9885,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="V+" gate="G$1" pin="P$2"/>
 <wire x1="129.54" y1="17.78" x2="129.54" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="12.7" x2="124.46" y2="12.7" width="0.1524" layer="91"/>
-<label x="121.92" y="12.7" size="1.778" layer="95"/>
+<label x="124.46" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN_V-" class="0">
@@ -9892,7 +9898,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="V-" gate="G$1" pin="P$2"/>
 <wire x1="144.78" y1="17.78" x2="144.78" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="12.7" x2="139.7" y2="12.7" width="0.1524" layer="91"/>
-<label x="137.16" y="12.7" size="1.778" layer="95"/>
+<label x="137.16" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN_PLAY" class="0">
@@ -9905,7 +9911,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="PLAY" gate="G$1" pin="P$2"/>
 <wire x1="157.48" y1="17.78" x2="157.48" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="12.7" x2="152.4" y2="12.7" width="0.1524" layer="91"/>
-<label x="149.86" y="12.7" size="1.778" layer="95"/>
+<label x="149.86" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPK_RP" class="0">
